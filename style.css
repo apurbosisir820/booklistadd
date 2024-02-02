@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rows-1, .rows-2{
+   background: #d37171;
+   display: flex;
+}
+
+.colam-1-row-1{
+    display: flex;
+    color: red;
+    float: left;
+}
+input{
+    width: 100%;
+}
+.colam-1, .colam-2, .colam-3, .colam-4, .colam-5{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.932) 0px 30px 60px -30px, rgba(0, 0, 0, 0.938) 0px -2px 6px 0px inset;
+    background-color: black;
+    border-radius: 10px;
+}
+.colam-1{
+    margin-top: 40px;
+    margin-left: -20px;
+    overflow-Y: scroll;
+    height: 600px;
+    background: #000;
+    color: aliceblue;
+    cursor: pointer;
+}
+.row-9-1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:992px){
+   
+    .row-9-1{
+      
+   
+        display: flex;
+        flex-direction: row;
+        background: #000;
+    }
+    .rows-1, .rows-2{
+        background: #d37171;
+        display: flex;
+     }
+     .colam-2, .colam-3,.colam-4,.colam-5{
+        width:220px;
+   
+        background: green;
+      
+          
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media  (max-width:768px){
+   
+    .row-9-1{
+      
+   
+        display: flex;
+        flex-direction: column;
+        background: #000;
+    }
+    
+    .rows-1{
+        background: #09129b;
+      
+     }
+  
+    .rows-2{
+        background: #09129b;
+      
+     }
+  
+
+}
+@media (max-width:576px){
+    .first-row{
+        display: flex;
+       
+    }
+    .rows-1, .rows-2{
+        display: flex;
+        flex-direction: column;
+        width:250px;
+    
+        background: #ff0202;
+    }
+ .colam-2, .colam-3,.colam-4,.colam-5{
+        width:220px;
+        height: 220px;
+        background: green;
+      
+          
+    }
+     input{
+        font-size: 12px;
+    }
+    .colam-1{
+        margin-top: 40px;
+        width: 250px;
+        height: 565px;
+        background: #000;
+        overflow-y: scroll;
+        padding: 1px 20px;
+    }
+    .col-9-list{
+        width: 240px;
+        margin-left: 120px;
+    }
+}
